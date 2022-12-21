@@ -4,12 +4,13 @@ import "firebase/firestore";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.React_App_apiKey,
-  authDomain: process.env.React_App_authDomain,
-  projectId: process.env.React_App_projectId,
-  storageBucket: process.env.React_App_storageBucket,
-  messagingSenderId: process.env.React_App_messagingSenderId,
-  appId: process.env.React_App_appId,
+  apiKey: "AIzaSyAlqHVtm7HAXuTYjNgjM2aQBjnW1S0MAC8",
+  authDomain: "file-system-ec1ec.firebaseapp.com",
+  projectId: "file-system-ec1ec",
+  storageBucket: "file-system-ec1ec.appspot.com",
+  messagingSenderId: "556400477756",
+  appId: "1:556400477756:web:01f12b598d77788231a539",
+  measurementId: "G-LQ27QVC1T2",
 };
 
 firebase.initializeApp(firebaseConfig);
